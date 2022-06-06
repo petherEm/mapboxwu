@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Maps from "../components/Maps";
 import MasterMap22Rom from "../components/MasterMap22Rom";
 import MasterMap19Rom from "../components/MasterMap19Rom";
 import Navbar from "../components/Navbar";

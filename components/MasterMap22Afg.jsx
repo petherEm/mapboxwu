@@ -64,7 +64,7 @@ function MasterMap22Afg() {
       </div>
       <ReactMapGL
         {...viewport}
-        mapboxAccessToken="pk.eyJ1IjoicGV0aGVyZW0iLCJhIjoiY2t0bDdsZjNjMDZ5ZzJ1bzZzOTVrcThtcCJ9.RPfTeUsfK5Xzl09POvuPgw"
+        mapboxAccessToken={process.env.NEXT_PUBLIC_API_MAPBOX}
         onMove={(e) => setViewport(e.viewport)}
         mapStyle="mapbox://styles/petherem/ckz10c0ey005715l8t6s2yufc"
       >
